@@ -1,0 +1,29 @@
+{
+  "name": "13octplaywright_ai",
+  "version": "1.0.0",
+  "description": "Playwright with AI",
+  "keywords": [
+    "Playwright",
+    "with",
+    "AI"
+  ],
+  "license": "ISC",
+  "author": "Dhanraj Kamble",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "demo": "node ./modules/process-env.js"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.65.1",
+    "@types/node": "^26.6.6",
+    "eslint": "^10.15.0",
+    "eslint-config-prettier": "^10.1.8",
+    "fetch": "^1.1.0",
+    "node-fetch": "^2.7.0",
+    "prettier": "^3.10.1",
+    "tsx": "^4.23.15",
+    "typescript": "npm:@typescript/typescript6@^6.0.2",
+    "typescript-eslint": "^8.74.0"
+  }
+}
